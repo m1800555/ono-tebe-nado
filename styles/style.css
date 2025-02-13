@@ -1,7 +1,5 @@
-p {
-    /* line-height: 1.5; */
-}
-
+@import 'global.css';
+@import '/fonts/fonts.css';
 
 /* ------------------ Header ------------------*/
 
