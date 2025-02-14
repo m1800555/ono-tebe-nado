@@ -50,10 +50,10 @@
   width: 100%;
   min-height: 757px;
   background: url('/images/cover.jpg') no-repeat center / cover;
-  /* filter: brightness(40%); */
 }
 
 .cover__text {
+  position: relative;
   margin: 165px 50px 142px;
   color: white;
   font-size: 100px;
@@ -86,6 +86,7 @@
 }
 
 .cover__action {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,7 +121,7 @@
   flex-direction: column;
   align-items: start;
   max-width: 1052px;
-  margin: 180px auto 146px;
+  margin: 180px auto 181px;
 }
 
 .lots__title {
@@ -159,6 +160,7 @@
 }
 
 .item__text {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -194,7 +196,7 @@
 
 .about {
   display: flex;
-  margin: 36px 24px 180px;
+  margin: 36px 24px 156px;
   gap: 72px;
 }
 
@@ -255,7 +257,6 @@
   width: 48px;
   height: 48px;
 }
-
 
 /* ------------------ Common ------------------*/
 
