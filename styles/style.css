@@ -164,6 +164,10 @@
   background-image: url('../images/card-lot-03.jpg');
 }
 
+.lots__link {
+  text-decoration: none;
+}
+
 .item__text {
   position: relative;
   display: flex;
